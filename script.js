@@ -16,8 +16,8 @@ const agePromise=(age,name)=>{
 }
 
 submitButton.addEventListener("click",()=>{
-   const nameInput=document.getElementById("nameInput").value;
-   const numInput=document.getElementById("numInput").value;
+   const nameInput=document.getElementById("name").value;
+   const numInput=document.getElementById("age").value;
    if(nameInput.trim()===""||numInput.trim()===""){
         alert("inputs cannot be empty")
    }
